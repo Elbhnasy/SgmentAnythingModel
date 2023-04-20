@@ -37,7 +37,7 @@ predictor.set_image(<your_image>)
 masks, _, _ = predictor.predict(<input_prompts>)
 ```
 
-or generate masks for an entire image:
+or generate masks for an entire images:
 
 ```
 from segment_anything import SamAutomaticMaskGenerator, sam_model_registry
